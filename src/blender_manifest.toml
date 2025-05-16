@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+
+id = "batch_render_actions"
+version = "1.0.0"
+name = "Batch Render Actions"
+tagline = "Render each animation action to its own folder"
+maintainer = "Pádraig Ó Cinnéide"
+type = "add-on"
+website = "https://github.com/PadraigK/BatchRenderActions"
+tags = ["Animation", "Render"]
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]

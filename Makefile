@@ -1,7 +1,7 @@
 .PHONY: build clean
 
 BLENDER ?= /Applications/Blender.app/Contents/MacOS/Blender
-SOURCE_DIR := .
+SOURCE_DIR := src
 OUTPUT_DIR := build
 
 build: ensure-build-dir
