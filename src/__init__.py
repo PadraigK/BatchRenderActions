@@ -47,12 +47,12 @@ def render_next_action():
 
     # Trigger render
     bpy.ops.render.render('INVOKE_DEFAULT', animation=True, write_still=True)
-    return None  # <-- Needed for bpy.app.timers.register
+    return None 
 
 def render_complete_handler(scene):
     global current_action_index
     current_action_index += 1
-    bpy.app.timers.register(render_next_action, first_interval=0.1)
+    bpy.app.timers.register(render_next_action, first_interval=0.5)
 
 class RenderActionProperties(bpy.types.PropertyGroup):
     filename_template: StringProperty(
