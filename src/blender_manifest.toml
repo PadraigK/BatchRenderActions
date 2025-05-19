@@ -1,7 +1,7 @@
 schema_version = "1.0.0"
 
 id = "batch_render_actions"
-version = "1.0.1"
+version = "1.0.2"
 name = "Batch Render Actions"
 tagline = "Render each animation action to its own folder"
 maintainer = "Pádraig Ó Cinnéide"
